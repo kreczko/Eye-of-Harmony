@@ -1,11 +1,11 @@
 Eye-of-Harmony
 ==============
 
-A data analysis meta package/framework tying up the different analysis steps.
+A data analysis ~~meta package/framework~~ aggregator tying up the different analysis steps.
 
 The Goal
 ==============
-The goal is to create a framework/meta-package which ties up the different components 
+The goal is to create a ~~framework/meta-package~~ aggregator which ties up the different components 
 that make up a particle physics analysis:
 
 1. Preparation of data (map/copy/stream)
@@ -16,4 +16,4 @@ that make up a particle physics analysis:
 6. Data publication (copy to web-server, notify)
 
 These steps are usually performed with different software (in different frameworks, etc) 
-and add to the complexity of the analysis. 
+and add to the complexity of the analysis. So lets try and take the complexity away.
