@@ -1,4 +1,4 @@
-Eye-of-Harmony
+Eye of Harmony
 ==============
 
 A data analysis ~~meta package/framework~~ aggregator tying up the different analysis steps.
