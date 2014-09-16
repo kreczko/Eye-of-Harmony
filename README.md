@@ -17,3 +17,26 @@ that make up a particle physics analysis:
 
 These steps are usually performed with different software (in different frameworks, etc) 
 and add to the complexity of the analysis. So lets try and take the complexity away.
+
+Roadmap
+==============
+ - [ ] add simple single-CPU job for processing ROOT files
+ - [ ] add simple multi-CPU job for processing ROOT files
+   - [ ] multiprocessing
+   - [ ] PROOF
+   - [ ] GRID
+ - [ ] add converters for
+  - [ ] ROOT to protobuf
+  - [ ] ROOT to CouchDB
+  - [ ] ROOT to HDF5
+- [ ] evaluate potential dependencies
+  - [ ] matplotlib (plotting)
+  - [ ] rootpy (for general ROOT python stuff)
+  - [ ] ganlia (for job submission)
+  - [ ] RooUnfold (for unfolding)
+- [ ] Tutorial
+  - [ ] pick simple analysis case (selection, signal/background, ttbar and/or Z)
+  - [ ] MC generation example
+  - [ ] fit example
+  - [ ] limit setting example
+  - [ ] unfolding example
